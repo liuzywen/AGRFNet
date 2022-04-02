@@ -1,6 +1,6 @@
 # AGRFNet: Two-stage Cross-modal and Multi-level Attention Gated Recurrent Fusion Network for RGB-D Saliency Detection
 The paper has been published in Signal Processing Image Communication.
-The detail can be seen in [paper]()
+The detail can be seen in [paper](https://github.com/liuzywen/AGRFNet/blob/main/AGRFNet.pdf)
 
 
 # Abstract: 
