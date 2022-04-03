@@ -9,8 +9,9 @@ Gated Recurrent Unit (AGRU). It can reduce the influence of low-quality depth im
 
 ## Pretraining 
 
-链接：
-提取码：
+链接：https://pan.baidu.com/s/1yf94REEnKRHqkmmSla5jPg 
+提取码：wsbg 
+
 
 
 
