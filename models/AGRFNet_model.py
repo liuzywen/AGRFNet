@@ -104,10 +104,9 @@ class Conv2dGRUCell(nn.Module):
     def forward(self, input_tensor, hidden_state):
         h_cur = hidden_state
         combined = torch.cat((input_tensor, h_cur), dim=1)
-        z1 = self.ca1(combined)
-        z2 = self.sa1(combined)
-        r = torch.sigmoid(z1)
-        z = torch.sigmoid(z2)
+        r = self.ca1(combined)
+        z = self.sa1(combined)
+
 
         h_cur_bar = h_cur * r
         cc_h = self.out_conv(torch.cat((input_tensor, h_cur_bar), dim=1))
